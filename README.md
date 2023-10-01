@@ -1,20 +1,24 @@
-# CODSOFT
-👋 Exploring Code and Collaboration: My Codesoft Internship Journey! 🚀
+# OASIS
+👋 Exploring Code and Collaboration: My Oasis Internship Journey! 🚀
 
-🔌 Software Development Intern @ Codesoft Technologies | 📆 4-Week Internship
+🔌 Software Development Intern @ Oasis Technologies | 📆 4-Week Internship
 
 Hello there, fellow GitHub explorers! 👋 During an exhilarating 4-week internship at Codesoft Technologies, I've delved into the world of software development and brought some exciting projects to life. 🌐✨
 
 👨‍💻 Throughout this immersive journey, I had the privilege to collaborate with a team of brilliant minds, contributing to real-world projects that showcase the marvels of technology. 🌟 In the process, I've crafted and polished two significant projects:
 
-🎉 **Tribute Page:** A captivating tribute page that celebrates the lives and achievements of remarkable individuals. Leveraging HTML and CSS, I strived to create an engaging and visually appealing user experience.
+*Calculator App* 🧮
 
-✈️ **Travel Booking System:** My adventure continued as I built a dynamic travel booking system, seamlessly weaving together front-end and back-end technologies. The result? A user-friendly platform that streamlines the travel booking process.
+One project was creating a calculator app from scratch using JavaScript. This was a great exercise in logic and math operations, requiring me to code the arithmetic behind a fully-functional calculator. Debugging issues and perfecting the UI/UX gave me valuable experience in bringing an idea to an elegant final product.
 
-These projects pushed my boundaries, demanding a creative and analytical approach. The collaborative environment at Codesoft has been instrumental in my growth, fostering the application of coding skills, critical thinking, and effective teamwork. 🧠💡
+*To-Do List Web App* 📝
 
-As I continue this coding odyssey and further hone my skills, I invite you to join me in exploring my GitHub repository. You'll find the meticulous craft of code, the beauty of collaboration, and the exciting evolution of my projects. 🌈🚀
+I built a dynamic to-do list web app using HTML, CSS, and JavaScript. This taught me how to handle user input and update the DOM, while allowing users to add, check-off, and delete tasks. Styling it with CSS completed the polished UI.
 
-Feel free to explore, fork, or provide valuable insights. Your engagement is a testament to the spirit of open-source development and shared learning. Let's connect, share ideas, and embark on this coding journey together!
+*Tribute Page for Lionel Messi* ⚽
 
-#CodesoftInternship #SoftwareDevelopment #GitHubAdventures #OpenSourceCoder
+I created a tribute page for Lionel Messi using HTML and CSS to demonstrate my front-end skills.
+
+These projects exemplified software development best practices I learned, like planning requirements, iterative development, and refactoring. Developing them pushed me to think logically, code precisely, and create functional tools.
+
+I'm excited to continue perfecting my skills as a software developer on impactful projects like these. Feel free to explore the code!
