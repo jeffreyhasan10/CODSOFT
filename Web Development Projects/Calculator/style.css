@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+
+body {
+    background-image: url('bg-image.jpg');
+    font-family: "Helvetica Neve", sans-serif;
+    margin: 25px;
+    background: linear-gradient(45deg, #00000000, #FECB2E, #6f2581, #53D769, #FD9432, #FC3158);
+    background-size: 400% 400%;
+    animation: gradientAnimation 10s ease infinite;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.calculator {
+    background-color: black;
+    outline: none;
+    border-radius: 65px;
+    padding: 20px;
+    color: white;
+    height: 1220px;
+    width: 565px;
+    position: relative;
+}
+
+.top-container {
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    height: 250px;
+}
+
+.display {
+    font-size: 130px;
+    font-weight: 300;
+    margin-bottom: 30px;
+    height: 160px;
+    text-align: right;
+    margin-right: 15px;
+}
+
+.clock{
+    font-size: 20px;
+}
+
+.buttons-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-gap: 20px;
+}
+
+.button {
+    height: 110px;
+    width: 110px;
+    border-radius: 100px;
+    font-size: 45px;
+    background-color: #333;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    transition: filter 0.5s;
+    justify-content: center;
+}
+
+.button.function {
+    color: black;
+    background-color: #a5a5a5;
+}
+
+.button.operator {
+    background-color: #f1a33c;
+}
+
+.button.number-0 {
+    width: 250px;
+    border-radius: 55px;
+    justify-content: flex-start;
+    padding-left: 45px;
+    grid-column: 1 / span 2;
+}
+
+.button:active,
+.button:focus {
+    filter: brightness(150%);
+}
+
+.bottom {
+    width: 250px;
+    height: 5px;
+    background: white;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.heading {
+    position: relative;
+    z-index: 2;
+    width: 65%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    font-size: 35px;
+}
+
+.heading h1 {
+    font-weight: 700;
+    font-size: 5.2rem;
+    line-height: 1.1;
+    margin: 0 0 2rem;
+    color: #cecece;
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
